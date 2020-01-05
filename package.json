@@ -1,0 +1,17 @@
+{
+    "name"          : "node-red-node-lcd",
+    "version"       : "0.0.1",
+    "description"   : "A Node-RED node for Raspberry Pi to write to all liquid crystal lcds.",
+    "dependencies"  : {
+    },
+    "node-red"      : {
+        "nodes"     : {
+            "lcd": "lcd.js"
+        }
+    },
+    "author": {
+        "name": "Erfan Jahanshahloo",
+        "email": "erfanjahanshahlo@gmail.com",
+        "url": "http://nodered.org"
+    }
+}
