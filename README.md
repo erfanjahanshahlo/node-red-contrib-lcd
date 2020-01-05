@@ -36,4 +36,4 @@ in node settings form in pins, type you must enter the pins to which the LCD is 
 ```
 RS,EN,D4,D5,D6,D7,ROW,COL
 ```
-> You must enter the pins to which the LCD is attached and the number of rows and columns shown below. Note that the pin numbers are physical and board.
+> Be careful not to use any spaces in any of these commands.
