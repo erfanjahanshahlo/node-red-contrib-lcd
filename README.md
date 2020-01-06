@@ -13,10 +13,10 @@ in step one download this repository and rename main folder to ```node-red-node-
 -node-red-node-lcd<br/>
 ---driver<br/>
 ------codecs<br/>
----------__init__.py<br/>
+---------_init_.py<br/>
 ---------hd44780_a00.py<br/>
 ---------hd44780_a02.py<br/>
-------__init__.py<br/>
+------_init_.py<br/>
 ------common.py<br/>
 ------compat.py<br/>
 ------contextmanagers.py<br/>
