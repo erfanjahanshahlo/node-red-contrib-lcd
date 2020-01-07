@@ -7,6 +7,13 @@ cd /home/pi/.node-red/node_modules
 git clone https://github.com/erfanjahanshahlo/node-red-node-lcd.git
 ```
 and restart your node red server or reboot your raspberry pi.
+# Install via npm
+Run the following code in your raspberry pi terminal
+```
+cd /home/pi/.node-red/node_modules
+npm install node-red-node-lcd
+```
+and restart your node red server or reboot your raspberry pi.
 # Install via Download
 in step one download this repository and rename main folder to ```node-red-node-lcd``` like the schematic below and copy to ```/home/pi/.node-red/node_modules``` path in your raspberry pi and restart your node red server or reboot your raspberry pi.
 <br/>
