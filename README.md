@@ -4,20 +4,20 @@ This module is lcd node for [node red](https://nodered.org/). in this node you c
 Run the following code in your raspberry pi terminal
 ```
 cd /home/pi/.node-red/node_modules
-git clone https://github.com/erfanjahanshahlo/node-red-node-lcd.git
+git clone https://github.com/erfanjahanshahlo/node-red-contrib-lcd.git
 ```
 and restart your node red server or reboot your raspberry pi.
 # Install via npm
 Run the following code in your raspberry pi terminal
 ```
 cd /home/pi/.node-red/node_modules
-npm install node-red-node-lcd
+npm install node-red-contrib-lcd
 ```
 and restart your node red server or reboot your raspberry pi.
 # Install via Download
-in step one download this repository and rename main folder to ```node-red-node-lcd``` like the schematic below and copy to ```/home/pi/.node-red/node_modules``` path in your raspberry pi and restart your node red server or reboot your raspberry pi.
+in step one download this repository and rename main folder to ```node-red-contrib-lcd``` like the schematic below and copy to ```/home/pi/.node-red/node_modules``` path in your raspberry pi and restart your node red server or reboot your raspberry pi.
 <br/>
--node-red-node-lcd<br/>
+-node-red-contrib-lcd<br/>
 ---driver<br/>
 ------codecs<br/>
 ---------_init_.py<br/>
