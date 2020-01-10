@@ -1,17 +1,33 @@
 {
-    "name"          : "node-red-node-lcd",
-    "version"       : "0.0.3",
-    "description"   : "A Node-RED node for Raspberry Pi to write to all liquid crystal lcds.",
-    "dependencies"  : {
-    },
-    "node-red"      : {
-        "nodes"     : {
-            "lcd": "lcd.js"
-        }
-    },
-    "author": {
-        "name": "Erfan Jahanshahloo",
-        "email": "erfanjahanshahlo@gmail.com",
-        "url": "http://nodered.org"
+  "name": "node-red-contrib-lcd",
+  "version": "0.0.3",
+  "description": "A Node-RED node for Raspberry Pi to write to all liquid crystal lcds.",
+  "dependencies": {},
+  "node-red": {
+    "nodes": {
+      "lcd": "lcd.js"
     }
+  },
+  "author": "Erfan Jahanshahloo <erfanjahanshahlo@gmail.com> (http://nodered.org)",
+  "main": "lcd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erfanjahanshahlo/node-red-contrib-lcd.git"
+  },
+  "keywords": [
+    "lcd",
+    "node-red",
+    "nodered",
+    "node-red-node",
+    "node_red",
+    "node-red-node-lcd"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erfanjahanshahlo/node-red-contrib-lcd/issues"
+  },
+  "homepage": "https://github.com/erfanjahanshahlo/node-red-contrib-lcd#readme"
 }
